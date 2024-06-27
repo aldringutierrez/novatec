@@ -70,7 +70,7 @@ Se evidencia que el microservicio crea una tarjeta con dos transacciones :
 
 ![image](https://github.com/aldringutierrez/novatec/assets/18297438/692f38fd-693e-4c73-9687-08cd1b8bcdf1)
 
-Se evidencia el microservicio anular2 
+Se evidencia el microservicio anular2. verifica transaccion dentro de 24 horas. 
 (se encuentra un bug a ultima hora toca darle dos veces ejecutar desde postman) :
 ![image](https://github.com/aldringutierrez/novatec/assets/18297438/862a0c85-01b2-42ae-aaf5-1bcdacfc9e29)
 
