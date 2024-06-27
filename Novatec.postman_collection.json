@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "5acf0b19-f89c-4cd9-b979-d045ce2740db",
+		"name": "Novatec",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11078325"
+	},
+	"item": [
+		{
+			"name": "localhost:9696/tarjeta/creaDatos",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9696/tarjeta/creaDatos",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"creaDatos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/card/1/number",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9696/tarjeta/card/1/number",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"card",
+						"1",
+						"number"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/card/unblock",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    { \r\n    \t\"cardId\": \"1020301234567801\",\r\n    \t\"tarjetaId\": \"2\"\r\n        \r\n    }    \r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9696/tarjeta/card/unblock",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"card",
+						"unblock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/card/balance",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"tarjetaId\": \"1020301234567801\",\r\n    \"saldo\": \"10000\"\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9696/tarjeta/card/balance",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"card",
+						"balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/card/balance/27",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9696/tarjeta/card/balance/27",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"card",
+						"balance",
+						"27"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/getById2/63",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9696/tarjeta/getById2/63",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"getById2",
+						"63"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/anular/64",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9696/tarjeta/anular/64",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"anular",
+						"64"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9696/tarjeta/anular2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    { \r\n    \t\"tarjetaId\": \"66\",\r\n    \t\"transaccionId\": \"67\"\r\n        \r\n    }    \r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9696/tarjeta/anular2",
+					"host": [
+						"localhost"
+					],
+					"port": "9696",
+					"path": [
+						"tarjeta",
+						"anular2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
