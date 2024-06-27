@@ -81,6 +81,13 @@ la transaccion en estado anulado :
 el saldo de la tarjeta restaurado :
 ![image](https://github.com/aldringutierrez/novatec/assets/18297438/13ccab7a-e9f4-4f75-a0cd-cf2a51cd1eb5)
 
+se adjunta coleccion de postman y archivo sql con el create de las tablas.
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/ad9b5749-960a-4344-a10f-f388285720b2)
+
+
+
+
+
 
 
 
