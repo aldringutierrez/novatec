@@ -3,7 +3,9 @@ novatec crediban
 
 
 
-Sistema de backend microservicios spring boot para el manejo de tarjetas de un banco. El sistema debe proveer la siguiente funcionalidad :
+Sistema de backend microservicios spring boot para el manejo de tarjetas de un banco. 
+
+El sistema provee la siguiente funcionalidad :
 1.
 Generar número de tar jeta
 Tipo de método: GET
