@@ -59,6 +59,45 @@ Se hace el uso de copilot para generar los esqueletos de los casos de pruebas un
 Se evidencia la cobertura con jacoco :
 ![image](https://github.com/aldringutierrez/novatec/assets/18297438/670c2708-ea00-42c3-9e37-ebf44105a01e)
 
+Se evidencia la aplicacion corriendo :
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/b6cef558-0996-4fbf-8bbc-35483c2df571)
+
+Se evidencia la aplicacion respondiendo desde postman :
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/b016df59-de37-420b-801b-37f8a851df1e)
+
+Se evidencia que el microservicio crea una tarjeta con dos transacciones :
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/6957366b-20ab-4933-95c1-9d7f18ded03f)
+
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/692f38fd-693e-4c73-9687-08cd1b8bcdf1)
+
+Se evidencia el microservicio anular2 
+(se encuentra un bug a ultima hora toca darle dos veces ejecutar desde postman) :
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/862a0c85-01b2-42ae-aaf5-1bcdacfc9e29)
+
+se evidencia la correcta modificacion de la base de datos :
+la transaccion en estado anulado :
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/c7dc4ded-8010-4d93-bec5-7523557352a7)
+
+el saldo de la tarjeta restaurado :
+![image](https://github.com/aldringutierrez/novatec/assets/18297438/13ccab7a-e9f4-4f75-a0cd-cf2a51cd1eb5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
